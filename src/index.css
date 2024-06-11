@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 1440px !important;
+    max-width: 1440px !important;
     margin: 0 auto;
     padding: 0 30px;
 }

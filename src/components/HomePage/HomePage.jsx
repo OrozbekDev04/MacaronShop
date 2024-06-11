@@ -6,7 +6,7 @@ import ColorGreen from "../../assets/svg/Orozbek/ColorGreen.svg";
 import ColorYellow from "../../assets/svg/Orozbek/ColorYellow.svg";
 const HomePage = () => {
     return (
-        <HomeMain className="container bg-green-400">
+        <HomeMain className="container ">
             <DivMain>
                 <ImageContainer>
                     <img src={macaronLove} alt="Macaron-Love.png"/>
@@ -22,15 +22,15 @@ const HomePage = () => {
                             <MainGrP>since 2013 </MainGrP>
                             <MainGrSpan><Line/></MainGrSpan>
                         </MainGr>
-                        <MainH2>
+                        <MainH2 className="">
                             Настоящая любовь
                         </MainH2>
                         <MainTitle>
                             Пирожные макарон и другие десерты из натуральных ингредиентов, приготовленные с любовью
                         </MainTitle>
-                        <Colors>
-                            <img style={{position:"absolute"}} src={ColorGreen} alt=""/>
-                            <img style={{position:"absolute"}} src={ColorYellow} alt=""/>
+                        <Colors className="">
+                            <img  src={ColorGreen} alt=""/>
+                            <img  src={ColorYellow} alt=""/>
                         </Colors>
                     </Main>
                 </div>
@@ -135,5 +135,8 @@ const Colors = styled ("div")(() => ({
     width: "50px",
     height: "50px",
     position: "absolute",
-    top:0
+    top:0,
+    img:{
+
+    }
     }))
