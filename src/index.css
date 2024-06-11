@@ -1,6 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .container{
-    width: 90%;
-    max-width: 1440px;
+    width: 1440px !important;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
 }
