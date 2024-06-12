@@ -2,6 +2,7 @@ import {createBrowserRouter} from "react-router-dom";
 import Layout from "../layout/layout/Layout.jsx";
 import HomePage from "../components/HomePage/HomePage.jsx";
 
+
 export const router = createBrowserRouter( [
     {
         path: '/',
@@ -14,7 +15,7 @@ export const router = createBrowserRouter( [
             },
             // {
             //     path: '/about',
-            //     element:<div>About</div>
+            //     element:<div>aboutt</div>
             // },
             // {
             //     path: '/contact',

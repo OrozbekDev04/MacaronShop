@@ -1,0 +1,55 @@
+.headerBackground {
+    width: 100%;
+    background: #F7EBE5;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .select {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: black;
+  }
+.NavLink {
+  display: flex;
+}
+  .Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .one, .two {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .phoneLink {
+    text-decoration: none;
+    color: black;
+  }
+  
