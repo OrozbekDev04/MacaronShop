@@ -1,0 +1,57 @@
+.gradient-background {
+    background: linear-gradient(270deg, #ff6ec4, #7370c7, #53cbf1, #dec811);
+    background-size: 800% 800%;
+    animation: gradientAnimation 15s ease infinite;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    /*color: white;*/
+    /*padding: 20px;*/
+    /*box-sizing: border-box;*/
+
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/*!**!error*/
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox']:checked + .toggle-switch {
+    background-color: #e9edee;
+}
+
+input[type='checkbox']:checked + .toggle-switch::after {
+    transform: translateX(20px);
+}
+
+/**/
