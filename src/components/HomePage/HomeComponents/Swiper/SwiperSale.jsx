@@ -1,4 +1,5 @@
 import SaleRed from "../../../../assets/svg/Orozbek/suggestion/SaleFlagRed.svg";
+
 // import SaleBlue from "../../../assets/svg/Orozbek/SaleFlagBlue.svg";
 
 // Import Swiper React components
@@ -23,7 +24,7 @@ const SwiperSale = () => {
             <CardFlex>
                 <Swiper
                     slidesPerView={4}
-                    spaceBetween={30}
+                    spaceBetween={20}
                     freeMode={true}
                     pagination={{
                         clickable: true,
@@ -33,18 +34,20 @@ const SwiperSale = () => {
                 >
                     {sale.map((el) => (
                         <SwiperSlide key={el.id}>
-                            <SaleCard>
-                                <CardDivTitle>
-                                    <p>{el.delivery}</p>
-                                    <img src={SaleRed} alt="" />
-                                </CardDivTitle>
-                                <SaleCardImg src={el.img} alt={el.alt} />
-                                <SaleCardIn>
-                                    <span>{el.text}</span> {/* Changed from <p> to <span> */}
-                                </SaleCardIn>
-                            </SaleCard>
+                            <div data-aos="zoom-in">
+                                <SaleCard>
+                                    <CardDivTitle>
+                                        <p>{el.delivery}</p>
+                                        <img src={SaleRed} alt=""/>
+                                    </CardDivTitle>
+                                    <SaleCardImg src={el.img} alt={el.alt}/>
+                                    <SaleCardIn>
+                                        <span>{el.text}</span> {/* Changed from <p> to <span> */}
+                                    </SaleCardIn>
+                                </SaleCard>
+                            </div>
                         </SwiperSlide>
-                    ))}
+                        ))}
                 </Swiper>
             </CardFlex>
         </div>
@@ -100,6 +103,7 @@ const CardDivTitle = styled('div')(() => ({  // Changed from 'p' to 'div'
 const CardFlex = styled('div')(() => ({
     display: "flex",
     alignItems: "center",
+    gap:"30px",
 }));
 
 const SaleCardIn = styled('div')(() => ({

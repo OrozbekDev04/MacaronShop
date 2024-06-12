@@ -1,4 +1,3 @@
-import React from 'react';
 import SuggestionList from "../../../../UI/SuggestionList.jsx";
 import Svg1 from "../../../../assets/svg/Orozbek/suggestion/SuggestionSvg.svg";
 import Svg2 from "../../../../assets/svg/Orozbek/suggestion/Suggestion2.svg";
@@ -21,12 +20,31 @@ import { styled } from "@mui/material";
 const Suggestion = () => {
     return (
         <StyledSuggestionAdmin>
-            <SuggestionList svg={Svg1} text="Готовые наборы" title="Готовые наборы со скидкой.  Вы можете подобрать набор на подходящий случай." icon={Icon} bg={Bg1} />
-            <SuggestionList svg={Svg2} text="Собрать свой набор" title="Выбрать количество макарун, и выбрать вкусы" icon={Icon} bg={Bg2} />
-            <SuggestionList svg={Svg3} text="Набор с индивидуальной печатью" title="Собрать набор макарон с уникальным дизайном. " icon={Icon} bg={Bg3} />
-            <SuggestionList svg={Svg4} text="Свадебные предложения" title="Нежные пирожные макаронс с разными вкусами для украшения вашего свадебного торжества" icon={Icon} bg={Bg4} />
-            <SuggestionList svg={Svg5} text="Корпоративные подарки" title="От 85 руб за шт. С уникальным дизайном.  Приятный комплимент для коллег и партнеров" icon={Icon} bg={Bg5} />
-            <SuggestionList svg={Svg6} text="Оптовые поставки" title="Предложение для кофеен, кафе, отелей и т.д. Посмотрите условия сотрудничества и отзывы." icon={Icon} bg={Bg6} />
+            <div data-aos="fade-right">
+                <SuggestionList svg={Svg1} text="Готовые наборы"
+                                title="Готовые наборы со скидкой.  Вы можете подобрать набор на подходящий случай."
+                                icon={Icon} bg={Bg1}/>
+            </div>
+            <div data-aos="fade-left"><SuggestionList svg={Svg2} text="Собрать свой набор"
+                                                       title="Выбрать количество макарун, и выбрать вкусы" icon={Icon}
+                                                       bg={Bg2}/>
+            </div>
+                <div data-aos="fade-right"><SuggestionList svg={Svg3} text="Набор с индивидуальной печатью"
+                                                           title="Собрать набор макарон с уникальным дизайном. "
+                                                           icon={Icon} bg={Bg3}/>
+                </div>
+                    <div data-aos="fade-left"><SuggestionList svg={Svg4} text="Свадебные предложения"
+                                                               title="Нежные пирожные макаронс с разными вкусами для украшения вашего свадебного торжества"
+                                                               icon={Icon} bg={Bg4}/>
+                    </div>
+                        <div data-aos="fade-right"><SuggestionList svg={Svg5} text="Корпоративные подарки"
+                                                                   title="От 85 руб за шт. С уникальным дизайном.  Приятный комплимент для коллег и партнеров"
+                                                                   icon={Icon} bg={Bg5}/>
+                        </div>
+                            <div data-aos="fade-left"><SuggestionList svg={Svg6} text="Оптовые поставки"
+                                                                       title="Предложение для кофеен, кафе, отелей и т.д. Посмотрите условия сотрудничества и отзывы."
+                                                                       icon={Icon} bg={Bg6}/>
+                            </div>
         </StyledSuggestionAdmin>
     );
 };
