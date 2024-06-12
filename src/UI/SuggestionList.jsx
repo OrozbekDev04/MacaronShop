@@ -12,7 +12,7 @@ const SuggestionList = (props) => {
                     <p>{text} </p>
                     <img src={icon} alt="icon"/>
                 </TextDiv>
-                <Tiitle>{title}</Tiitle>
+                <Title>{title}</Title>
             </CardDiv>
         </div>
     );
@@ -47,7 +47,7 @@ const TextDiv = styled('div') (() => ({
     }
 }))
 
-const Tiitle = styled('p') (() => ({
+const Title = styled('p') (() => ({
     fontFamily:"san-serif , Proxima Nova",
     fontWeight:400,
     fontsize:"16px",
