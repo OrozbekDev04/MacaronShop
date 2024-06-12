@@ -1,6 +1,5 @@
 
 import {styled} from "@mui/material";
-
 import Suggestion from "./HomeComponents/Suggestion/Suggestion.jsx";
 import LoveMain from "./HomeComponents/LoveMain/LoveMain.jsx";
 import SwiperSale from "./HomeComponents/Swiper/SwiperSale.jsx";
