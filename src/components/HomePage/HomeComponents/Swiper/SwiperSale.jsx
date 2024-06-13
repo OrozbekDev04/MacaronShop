@@ -24,7 +24,7 @@ const SwiperSale = () => {
             <CardFlex>
                 <Swiper
                     slidesPerView={4}
-                    spaceBetween={20}
+                    spaceBetween={50}
                     freeMode={true}
                     pagination={{
                         clickable: true,

@@ -106,7 +106,7 @@ const DivMain = styled("div")(() => ({
     justifyContent: "space-evenly",
     background: "#F7F7F7",
     height: "475px",
-    marginTop: "100px",
+    marginTop: "16px",
 }));
 
 const Main = styled("div")(() => ({
