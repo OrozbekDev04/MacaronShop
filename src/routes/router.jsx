@@ -6,7 +6,21 @@ import SignIn from "../components/registration/SignIn.jsx";
 import Password from "../components/registration/password/Password.jsx";
 import Error from "../components/error/Error.jsx";
 
+
 export const router = createBrowserRouter( [
+
+    {
+        path:'/signUp',//Зарегист
+        element:<SignUp/>
+    },
+    {
+        path:'/signIn',//вход
+        element:<SignIn/>
+    },
+    {
+        path: '/password',//вход
+        element:<Password/>,
+    },
     {
         path: '/',
         element:<Layout/>,
@@ -14,20 +28,12 @@ export const router = createBrowserRouter( [
         children: [
             {
                 path: '/',
-                element:<SignUp/>
+                element:<HomePage/>
             },
-            {
-                path:'/signUp',//Зарегистрироваться
-                element:<SignUp/>
-            },
-            {
-                path:'/signIn',//вход
-                element:<SignIn/>
-            },
-            {
-                path: '/password',//вход
-                element:<Password/>,
-            },
+            // {
+            //     path: '/about',
+            //     element:<div>aboutt</div>
+            // },
             // {
             //     path: '/contact',
             //     element:<div>Contact</div>

@@ -4,9 +4,13 @@ import Line from "../../assets/svg/Orozbek/-.jsx";
 import {styled} from "@mui/material";
 import ColorGreen from "../../assets/svg/Orozbek/ColorGreen.svg";
 import ColorYellow from "../../assets/svg/Orozbek/ColorYellow.svg";
+import Holidays from '../holidays/Holidays.jsx';
+import News from '../news/News.jsx';
+import TaceCare from '../taceCare/TaceCare.jsx';
 const HomePage = () => {
     return (
-        <HomeMain className="container ">
+        <div className='container'>
+        <HomeMain>
             <DivMain>
                 <ImageContainer>
                     <img src={macaronLove} alt="Macaron-Love.png"/>
@@ -35,8 +39,11 @@ const HomePage = () => {
                     </Main>
                 </div>
             </DivMain>
-
         </HomeMain>
+            <Holidays/>
+            <News/>
+            <TaceCare/>
+        </div>
     );
 };
 

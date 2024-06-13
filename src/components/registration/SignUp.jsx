@@ -92,12 +92,17 @@ const SignUp = () => {
                                 name="city"
                                 control={control}
                                 defaultValue=""
+                                rules={{
+                                    required: "Это обязательное поле"
+                                }}
                                 render={({ field }) => (
                                     <TextField
                                         {...field}
                                         label="Город"
                                         variant="outlined"
                                         className="w-[350px]"
+                                        error={!!errors.address}
+                                        helperText={errors.address && errors.address.message}
                                     />
                                 )}
                             />
