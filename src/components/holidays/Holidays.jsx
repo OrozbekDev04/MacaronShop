@@ -1,4 +1,3 @@
-import React from "react";
 import cap from "../../assets/svg/cap.svg";
 import cookie from "../../assets/svg/cookie.svg";
 import blueCookie from "../../assets/svg/blueCookie.svg";
@@ -7,7 +6,7 @@ import pinkCookie from "../../assets/svg/pinkCookie.svg";
 const Holidays = () => {
   return (
     <div>
-      <div className="mt-[142px]">
+      <div className="mt-[82px]">
         <h1 className="text-center text-4xl font-medium">
           Ближайшие праздники
         </h1>

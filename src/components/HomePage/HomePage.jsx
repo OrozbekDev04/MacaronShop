@@ -6,6 +6,7 @@ import SwiperSale from "./HomeComponents/Swiper/SwiperSale.jsx";
 import Holidays from "../holidays/Holidays.jsx";
 import News from "../news/News.jsx";
 import TaceCare from "../taceCare/TaceCare.jsx";
+import ProductCards from "../ProductCards.jsx";
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
             <div><Suggestion/></div>
             <div><SwiperSale/></div>
             <div><Holidays/></div>
+            <div><ProductCards/></div>
             <div><News/></div>
             <div><TaceCare/></div>
 
