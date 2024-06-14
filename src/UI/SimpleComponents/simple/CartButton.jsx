@@ -1,11 +1,19 @@
 import React from 'react'
-import Cart from '../../../assets/svg/Cart.svg'
+import Cart from '../../../assets/Cart.svg'
+import CartWhite from '../../../assets/CartWhite.svg'
 
-function CartButton() {
+function CartButton({bg, white}) {
   return (
-    <div className=' h-full flex flex-row items-center gap-4 border-l border-l-[#EDEDF0] pr-6'>
-      <img src={Cart} alt="" className=' h-[19px] pl-4' />
-      <p className=' text-[14px] font-[600]'>В корзину</p>
+    <div className={` h-full flex flex-row items-center gap-3 border-l border-l-[#EDEDF0] rounded-sm py-2 px-8 ${String(bg)}`}>
+      {
+        white === true ? (
+          <img src={CartWhite} alt="" className=' h-[19px]' />
+        ) : (
+          <img src={Cart} alt="" className=' h-[19px]' />
+        )
+      }
+      <p className=' text-[14px] font-montserrat'>В корзину</p>
+
     </div>
   )
 }

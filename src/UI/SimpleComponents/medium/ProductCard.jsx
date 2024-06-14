@@ -17,7 +17,7 @@ function ProductCard() {
         />
         <div className=' h-[50px] flex flex-row items-center justify-between border border-[#EDEDF0]'>
             <Price
-                price={"2800 сом"}
+                price={"2800"}
             />
             <CartButton/>
         </div>

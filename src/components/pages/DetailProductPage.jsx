@@ -1,9 +1,9 @@
 import React from 'react'
-import ProductDetail from '../UI/SimpleComponents/big/ProductDetail'
+import ProductDetail from '../../UI/SimpleComponents/big/ProductDetail'
 
 function DetailProductPage() {
   return (
-    <div className=' miniContainer mx-auto border'>
+    <div className=' miniContainer mx-auto font-montserrat'>
         <ProductDetail />
     </div>
   )

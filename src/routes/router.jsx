@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import Layout from "../layout/layout/Layout.jsx";
-import HomePage from "../components/HomePage/HomePage.jsx";
-import DetailProductPage from "../components/DetailProductPage.jsx";
+import HomePage from "../components/pages/HomePage.jsx";
+import DetailProductPage from "../components/pages/DetailProductPage.jsx";
 
 export const router = createBrowserRouter( [
     {
@@ -13,10 +13,10 @@ export const router = createBrowserRouter( [
             //     path: '/',
             //     element:<HomePage />
             // },
-            // {
-            //     path: '/',
-            //     element:<DetailProductPage />
-            // },
+            {
+                path: '/',
+                element:<DetailProductPage />
+            },
             // {
             //     path: '/',
             //     element:<DetailProductPage />
@@ -34,6 +34,5 @@ export const router = createBrowserRouter( [
             //     element:<div>404</div>
             // }
         ]
-
     }
 ]);
