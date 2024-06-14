@@ -3,6 +3,7 @@ import {styled} from "@mui/material";
 import Suggestion from "./HomeComponents/Suggestion/Suggestion.jsx";
 import LoveMain from "./HomeComponents/LoveMain/LoveMain.jsx";
 import SwiperSale from "./HomeComponents/Swiper/SwiperSale.jsx";
+import News from '../news/News.jsx'
 
 
 const HomePage = () => {
@@ -16,6 +17,9 @@ const HomePage = () => {
             </div>
             <div>
                 <SwiperSale/>
+            </div>
+            <div>
+                <News/>
             </div>
         </HomeContainer>
     );
