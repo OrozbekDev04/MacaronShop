@@ -1,0 +1,110 @@
+.footerBackground {
+    width: 100%;
+    height: 318px;
+    background: #EBEDEE;
+    padding: 20px 0;
+  }
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}  
+.icon {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.ptext {
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: center;  
+    color: #292929;
+  
+}
+.heart, .car, .mendal {
+    margin-bottom: 10px;
+}
+.heart {
+    width: 44px;
+    height: 39px;
+}
+.car {
+    width: 49px;
+    height: 34px;
+}
+.mendal {
+    width: 28px;
+    height: 37px;
+}
+.heart, .car, .mendal {
+    margin-bottom: 10px;
+}
+.text {
+    display: flex;
+    gap: 20px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info h4 {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.49px;
+    text-align: left;
+    
+}
+.navLink {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: left;    
+    color: #292929;
+}
+.info a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}  
+.tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.phoneLink {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.92px;
+    text-align: right;    
+}
+.textp {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: right;
+    color: #292929;
+}
+.media {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 3rem;
+}
