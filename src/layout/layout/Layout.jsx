@@ -3,6 +3,7 @@ import {Outlet} from "react-router-dom";
 import Footer from "../footer/Footer.jsx";
 import HeaderTop from "../header/HeaderTop.jsx";
 import Sliders from "../../components/Slider/Slider.jsx";
+import App from "../../UI/K/App.jsx";
 
 const Layout = () => {
     return (
@@ -11,6 +12,7 @@ const Layout = () => {
          <HeaderTop/>
             <Header/>
             <Outlet/>
+            <App/>
             <Footer/>
         </>
     );

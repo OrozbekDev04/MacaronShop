@@ -30,8 +30,8 @@ const HeaderTop = () => {
 
             <select onChange={handleSelectChange} defaultValue="">
               <option value="" disabled>login</option>
-              <option value="/signUp">Signup</option>
-              <option value="/signIn">Signin</option>
+              <option value="/signUp">SignUp</option>
+              <option value="/signIn">SignIn</option>
             </select>
 
             {/*<NavLink to="" className={cls.phoneLink}>0704110383</NavLink>*/}

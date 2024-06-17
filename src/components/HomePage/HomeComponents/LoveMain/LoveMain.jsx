@@ -77,7 +77,7 @@ const Main = styled("div")(() => ({
     alignItems: "center",
     flexDirection:"column",
     marginBottom: "50px",
-    zIndex: 100,
+    zIndex: 20,
     position: "relative",
 
 }))
