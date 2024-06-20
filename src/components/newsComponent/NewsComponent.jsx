@@ -1,11 +1,10 @@
-import React from "react";
 import MainFall from "../../assets/img/Mainfall.png";
 import Contest from "../../assets/img/Contest.png";
 import Express from "../../assets/img/Express.png";
 import HoverScaleImage from "./HowerScaleImage";
 import { useNavigate } from "react-router-dom";
 
-const NewsComponent = () => {
+export const NewsComponent = () => {
   const navigate = useNavigate();
   return (
     <div>
@@ -190,4 +189,4 @@ const NewsComponent = () => {
   );
 };
 
-export default NewsComponent;
+// export default NewsComponent;

@@ -34,4 +34,4 @@ export const sale = [
         text: "По СПб в районе КАД –  от 3000₽По МСК – от 5000₽",
         img: "public/saleExample.jpg",
     }
-]
+];

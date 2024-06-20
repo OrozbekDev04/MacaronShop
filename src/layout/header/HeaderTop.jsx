@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import cls from "./Header.module.css";
-import Bag from "../../assets/svg/Ayana/bag.svg"
+import Bag from "../../assets/svg/Ayana/bag.svg";
+import phoneNumber from "../../assets/svg/Ayana/phone.svg";
 import {Box, Modal} from "@mui/material";
 
 import Button from '@mui/material/Button';
@@ -25,7 +26,7 @@ const HeaderTop = () => {
 
   return (
     <div className={cls.headerBackground}>
-      <div className={cls.container}>
+      <div className="container" >
         <div className={cls.Top}>
           <div className={cls.one}>
             <NavLink to="/" className={cls.navLink} style={({ isActive }) => ({ fontWeight: isActive ? '' : 'normal', textDecoration: 'none', color: "black" })}>Гарантия свежести</NavLink>
@@ -65,7 +66,7 @@ const HeaderTop = () => {
         {/*      <option value="">Москва</option>*/}
         {/*      <option value="">Казань</option>*/}
         {/*    </select>*/}
-            <a href="tel:0704110383" className={cls.phoneLink}>0704110383</a>
+            <a href="tel:0704110383" className={cls.phoneLink}><img src={phoneNumber} alt="phone"/> 0704110383</a>
             <NavLink to="/" className={cls.navLink} style={({ isActive }) => ({ fontWeight: isActive ? '' : 'normal', textDecoration: 'none', color: "black" })}>
               <img src={Bag} alt=""/></NavLink>
           </div>

@@ -1,12 +1,9 @@
-import React from 'react'
-import NewsComponent from '../../components/newsComponent/NewsComponent'
+import {NewsComponent} from "../../components/newsComponent/NewsComponent.jsx";
 
 const NewsPage = () => {
-  return (
-    <div className='container'>
+    return (
+        // <h1>ghjhh</h1>
         <NewsComponent/>
-    </div>
-  )
+        )
 }
-
-export default NewsPage
+export default NewsPage;

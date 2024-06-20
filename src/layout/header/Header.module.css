@@ -54,6 +54,9 @@
   .phoneLink {
     text-decoration: none;
     color: black;
+    display:flex;
+    align-items: center;
+    gap: 5px;
   }
 
 .modal {

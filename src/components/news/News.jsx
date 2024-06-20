@@ -1,4 +1,3 @@
-import React from "react";
 import MainFall from "../../assets/img/Mainfall.png";
 import Contest from "../../assets/img/Contest.png";
 import Express from "../../assets/img/Express.png";
