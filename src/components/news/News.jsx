@@ -2,7 +2,9 @@ import React from "react";
 import MainFall from "../../assets/img/Mainfall.png";
 import Contest from "../../assets/img/Contest.png";
 import Express from "../../assets/img/Express.png";
+import { useNavigate } from "react-router-dom";
 const News = () => {
+  const navigate = useNavigate()
   return (
     <div>
       <h1 className="text-4xl text-center mb-[40px] mt-[85px]">Новости</h1>
@@ -48,7 +50,11 @@ const News = () => {
         </div>
       </div>
       <div className="flex justify-center mt-[35px]">
-      <button className="border-2 border-cyan-500 px-[40px] py-[10px]">Все новости</button>
+      <button className="border-2 border-cyan-500 px-[40px] py-[10px]" 
+      onClick={() => {
+        navigate(`/news`);
+      }}
+      >Все новости</button>
       </div>
     </div>
   );

@@ -21,6 +21,19 @@ const HomePage = () => {
             <div><News/></div>
             <div><TaceCare/></div>
 
+        {/*<HomeContainer>*/}
+        {/*    <div className="container ">*/}
+        {/*        <LoveMain/>*/}
+        {/*    </div>*/}
+        {/*    <div>*/}
+        {/*        <Suggestion/>*/}
+        {/*    </div>*/}
+        {/*    <div>*/}
+        {/*        <SwiperSale/>*/}
+        {/*    </div>*/}
+        {/*    <div>*/}
+        {/*        <News/>*/}
+        {/*    </div>*/}
         </HomeContainer>
     );
 };
