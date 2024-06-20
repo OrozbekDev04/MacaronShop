@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(270deg, #ff6ec4, #7370c7, #53cbf1, #dec811);
+    background: linear-gradient(270deg, #ff6ec4, #7370c7, #53cbf1, #dec811, #EBEDEE);
     background-size: 800% 800%;
     animation: gradientAnimation 15s ease infinite;
     height: 110vh;

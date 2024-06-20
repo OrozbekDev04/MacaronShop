@@ -1,5 +1,5 @@
 import SaleRed from "../../../../assets/svg/Orozbek/suggestion/SaleFlagRed.svg";
-// import SaleBlue from "../../../assets/svg/Orozbek/SaleFlagBlue.svg";
+ // import SaleBlue from "../../../assets/svg/Orozbek/SaleFlagBlue.svg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

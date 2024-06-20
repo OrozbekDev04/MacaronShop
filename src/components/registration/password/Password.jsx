@@ -42,7 +42,7 @@ const ForgotPassword = () => {
                                         type="email"
                                         label="Email"
                                         variant="outlined"
-                                        className="w-[350px]"
+                                        className="w-full"
                                         error={!!errors.email}
                                         helperText={errors.email && errors.email.message}
                                     />
