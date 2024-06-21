@@ -3,6 +3,8 @@ import {Outlet} from "react-router-dom";
 import Footer from "../footer/Footer.jsx";
 import HeaderTop from "../header/HeaderTop.jsx";
 import Sliders from "../../components/Slider/Slider.jsx";
+import Corporate from "../../pages/corporate/Corporate.jsx";
+import MacaroniComponent from "../../components/macaron/Macaron.jsx";
 
 const Layout = () => {
     return (
@@ -11,6 +13,7 @@ const Layout = () => {
          <HeaderTop/>
             <Header/>
                  <Outlet/>
+                 <MacaroniComponent/>
             <Footer/>
         </>
     );
