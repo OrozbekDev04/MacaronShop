@@ -1,0 +1,87 @@
+.comm {
+    display: flex;
+    gap: 2rem;
+}
+.texth2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.57px;
+    text-align: center;
+    color: #292929;
+}
+.question {
+    margin-top: 2rem
+}
+.company {
+    margin-top: 2rem;
+}
+.cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.btn {
+    width: 254px;
+    height: 50px;
+    border-radius: 3px;
+    background-color:  rgba(231, 66, 106, 1);
+    color: #fff;
+}
+.present {
+    margin-top: 7rem;
+}
+.teh2xt {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51.2px;
+    text-align: center;
+    color: rgba(41, 41, 41, 1);    
+}
+.tpext {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(41, 41, 41, 1);
+}
+.ptextp {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(41, 41, 41, 1);
+    margin-top: 3rem;
+}
+.buts {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 3rem;        
+}
+.text {
+    margin-left: 12rem;
+}
+.but {
+    width: 302px;
+    height: 50px;
+    top: 635px;
+    left: 819px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(231, 66, 106, 1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;    
+    color: #fff;
+}
+.pic {
+    display: flex;
+    margin-top: 4rem;
+}

@@ -1,6 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import Layout from "../layout/layout/Layout.jsx";
 import HomePage from "../components/HomePage/HomePage.jsx";
+import Corporate from "../pages/corporate/Corporate.jsx";
 
 import NewsPage from "../pages/newsPage/NewsPage.jsx";
 import BasketPage from "../pages/basketPage/BasketPage.jsx";
@@ -30,6 +31,11 @@ export const router = createBrowserRouter( [
             //     element:<DetailProductPage />
             // },
          
+
+            {
+                path: '/corporete',
+                element:<Corporate/>
+            },
             // {
             //     path: '/about',
             //     element:<div>aboutt</div>

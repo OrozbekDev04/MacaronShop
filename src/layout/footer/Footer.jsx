@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                     <div className={cls.info}>
                         <h4>ДЛЯ БИЗНЕСА</h4>
-                        <NavLink to="/"className={cls.navLink}  style={({ isActive }) => ({ fontWeight: isActive ? '' : 'normal', 
+                        <NavLink to="/corporete"className={cls.navLink}  style={({ isActive }) => ({ fontWeight: isActive ? '' : 'normal', 
                         textDecoration: 'none', color: "black" })}>Корпоративные подарки</NavLink>
                         <NavLink to="/" className={cls.navLink}  style={({ isActive }) => ({ fontWeight: isActive ? '' : 'normal', 
                         textDecoration: 'none', color: "black" })}>Для юридических лиц</NavLink>
