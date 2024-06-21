@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,10 @@
     padding: 0 30px;
 }
 
+.miniContainer {
+    width: 1170px;
+}
+
 a{
     text-decoration: none;
 }
@@ -21,3 +26,5 @@ a{
 button{
     cursor: pointer;
 }
+
+

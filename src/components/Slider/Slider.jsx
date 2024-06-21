@@ -14,7 +14,7 @@ const Sliders = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     prevArrow: <CustomPrevArrow />, 
     nextArrow: <CustomNextArrow />, 
     style: { backgroundColor: '#D4E9F9' },
@@ -23,10 +23,10 @@ const Sliders = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src={sli} alt="" style={{ display: 'block', margin: '0 auto', height: '30px' }} />
+        <img src={sli} alt="" style={{ display: 'block', margin: '0 auto',paddingTop:'10px', height: '40px' }} />
       </div>
       <div>
-        <img src={slid} alt="" style={{ display: 'block', margin: '0 auto', height: '40px' }} />
+        <img src={slid} alt="" style={{ display: 'block', margin: '0 auto',paddingTop:'10px', height: '50px' }} />
       </div>
       <div>
         <img src={slide} alt="Slide 3" style={{ display: 'block', margin: '0 auto', height: '50px' }} />

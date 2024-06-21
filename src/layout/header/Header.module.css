@@ -3,11 +3,11 @@
     background: #F7EBE5;
   }
   
-  .container {
+  /* .container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-  }
+  } */
   
   .select {
     border: none;
@@ -29,6 +29,8 @@
   }
 .NavLink {
   display: flex;
+  align-items: center;
+  gap: 5px;
 }
   .Top {
     display: flex;
@@ -41,15 +43,51 @@
     display: flex;
     align-items: center;
     gap: 16px;
+    height:48px
   }
   
   .navLink {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
   }
   
   .phoneLink {
     text-decoration: none;
     color: black;
+    display:flex;
+    align-items: center;
+    gap: 5px;
   }
-  
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 16px;
+  border-radius: 4px;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selectTrigger {
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.popper {
+  z-index: 1300; /* Ensure the z-index is high enough */
+}
+
+.popperBox {
+  background: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+}

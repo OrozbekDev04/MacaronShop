@@ -3,25 +3,55 @@ import Layout from "../layout/layout/Layout.jsx";
 import HomePage from "../components/HomePage/HomePage.jsx";
 import Corporate from "../pages/corporate/Corporate.jsx";
 
+import NewsPage from "../pages/newsPage/NewsPage.jsx";
+import BasketPage from "../pages/basketPage/BasketPage.jsx";
+
+
+// import DetailProductPage from "../components/DetailProductPage.jsx";
+import ProductsList from "../components/productsList/ProductsList.jsx";
+
 
 export const router = createBrowserRouter( [
+
+    // {
+    //     path: '/signUp',
+    //     element:<SignUp />
+    // },
     {
         path: '/',
         element:<Layout/>,
-        errorElement:<div>Error</div>,
+        errorElement:<div>Errorrrrr..............|.|.|....|.....|.|.|.......______/\_________/\____/\/\/\/\/\/\______</div>,
         children: [
             {
                 path: '/',
                 element:<HomePage />
             },
+            // {
+            //     path: '/',
+            //     element:<DetailProductPage />
+            // },
+         
+
             {
                 path: '/corporete',
                 element:<Corporate/>
             },
             // {
-            //     path: '/contact',
-            //     element:<div>Contact</div>
-            // },
+            //     path: '/about',
+            //     element:<div>aboutt</div>
+            
+            {
+                path: '/news',
+                element:<NewsPage/>
+            },
+            {
+                path:'/allProducts',
+                element:<ProductsList  />
+            },
+            {
+                path: 'basket',
+                element:<BasketPage/>
+            }
             // {
             //     path: '/*',
             //     element:<div>404</div>

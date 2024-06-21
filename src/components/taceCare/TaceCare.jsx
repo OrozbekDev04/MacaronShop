@@ -10,7 +10,7 @@ const TaceCare = () => {
       <h1 className="text-4xl mb-[40px] text-center">
         Мы обо всём позаботились
       </h1>
-      <div className="flex mb-[37px] justify-between">
+      <div className="flex mb-[37px] justify-center gap-[30px]">
         <div className="w-[270px]">
           <img src={BestIngredients} alt="" />
           <h4 className="text-xl mt-[29px]">Лучшие ингредиенты</h4>

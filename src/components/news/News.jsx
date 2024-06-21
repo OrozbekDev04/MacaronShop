@@ -1,12 +1,13 @@
-import React from "react";
 import MainFall from "../../assets/img/Mainfall.png";
 import Contest from "../../assets/img/Contest.png";
 import Express from "../../assets/img/Express.png";
+import { useNavigate } from "react-router-dom";
 const News = () => {
+  const navigate = useNavigate()
   return (
-    <div>
-      <h1 className="text-4xl text-center mb-[40px] mt-[85px]">Новости</h1>
-      <div className="flex gap-[30px] justify-between mb-[30px]">
+    <div >
+      <h1  className="text-4xl text-center mb-[40px] mt-[85px]">Новости</h1>
+      <div  className="flex gap-[30px] justify-center mb-[30px]">
         <div className="w-[370px] border-2 rounded-md ">
           <img className="mb-[20px]" src={MainFall} alt="" />
           <div className="w-[330px] m-auto">
@@ -20,7 +21,7 @@ const News = () => {
             </p>
           </div>
         </div>
-        <div className="w-[370px] border-2 rounded-md ">
+        <div  className="w-[370px] border-2 rounded-md ">
           <img className="mb-[20px]" src={Contest} alt="" />
           <div className="w-[330px] m-auto">
             <p className="text-gray-400 mb-[10px]">17.02.2023</p>
@@ -33,7 +34,7 @@ const News = () => {
             </p>
           </div>
         </div>
-        <div className="w-[370px] border-2 rounded-md ">
+        <div  className="w-[370px] border-2 rounded-md ">
           <img className="mb-[20px]" src={Express} alt="" />
           <div className="w-[330px] m-auto mb-[20px]">
             <p className="text-gray-400 mb-[10px]">11.02.2023</p>
@@ -48,7 +49,11 @@ const News = () => {
         </div>
       </div>
       <div className="flex justify-center mt-[35px]">
-      <button className="border-2 border-cyan-500 px-[40px] py-[10px]">Все новости</button>
+      <button data-aos="zoom-out" className="border-2 border-cyan-500 px-[40px] py-[10px]" 
+      onClick={() => {
+        navigate(`/news`);
+      }}
+      >Все новости</button>
       </div>
     </div>
   );
