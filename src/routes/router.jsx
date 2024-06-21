@@ -6,7 +6,8 @@ import NewsPage from "../pages/newsPage/NewsPage.jsx";
 import BasketPage from "../pages/basketPage/BasketPage.jsx";
 
 
-import DetailProductPage from "../components/DetailProductPage.jsx";
+// import DetailProductPage from "../components/DetailProductPage.jsx";
+import ProductsList from "../components/productsList/ProductsList.jsx";
 
 
 export const router = createBrowserRouter( [
@@ -18,7 +19,7 @@ export const router = createBrowserRouter( [
     {
         path: '/',
         element:<Layout/>,
-        errorElement:<div>Error</div>,
+        errorElement:<div>Errorrrrr..............|.|.|....|.....|.|.|.......______/\_________/\____/\/\/\/\/\/\______</div>,
         children: [
             {
                 path: '/',
@@ -36,6 +37,10 @@ export const router = createBrowserRouter( [
             {
                 path: '/news',
                 element:<NewsPage/>
+            },
+            {
+                path:'/allProducts',
+                element:<ProductsList  />
             },
             {
                 path: 'basket',

@@ -3,11 +3,11 @@
     background: #F7EBE5;
   }
   
-  .container {
+  /* .container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-  }
+  } */
   
   .select {
     border: none;
@@ -49,6 +49,8 @@
   .navLink {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
   }
   
   .phoneLink {
@@ -87,5 +89,5 @@
   background: white;
   padding: 16px;
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
 }

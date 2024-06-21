@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export const NewsComponent = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div data-aos="zoom-in">
       <div className="flex gap-[10px] mt-[41px] justify-center ">
         <p
           className="text-blue-400 cursor-pointer "

@@ -18,15 +18,16 @@ function ProductCard() {
             dispatch(fetchProductsThunk());
         }
     }, [productStatus, dispatch]);
-    console.log('rrr',products);
 
     // Assuming you want to display the first product for simplicity
 
     return (
+        // <div data-aos="zoom-in">
+
        <div className='flex flex-wrap gap-2 justify-between items-center'>
         {
             products.slice(0,6).map((product) => (
-                <div className='w-[370px] h-[460px] border border-[#EDEDF0]  flex flex-col justify-between rounded-[5px]'>
+                <div data-aos="zoom-in"  className='w-[370px] h-[460px] border border-[#EDEDF0]  flex flex-col justify-between rounded-[5px]'>
                 <img src={product.img } alt="" className='w-[370px] h-[300px] ' />
                 <CardTitle title={product.name || "Сердце"}  />
                 <DescriptionCard description={product.description || "24 штуки в коробке в виде сердца. Ассорти из 6 вкусов "} />
@@ -37,7 +38,8 @@ function ProductCard() {
             </div>
             ))
         }
-       </div>
+        </div>
+    //    </div>
     );
 }
 

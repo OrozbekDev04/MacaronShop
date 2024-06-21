@@ -7,7 +7,7 @@ function Button() {
     <div>
       <button className=' h-[50px] border rounded-sm border-[#4E9DD3] px-20' 
       onClick={() => {
-      navigate(`/news`);
+      navigate(`/allProducts`);
     }}>
       Показать ещё
       </button>
